@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iman.inc.sqlitetes.InputData">
+
+
+    <EditText
+        android:id="@+id/input_edt_Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INPUT NAMA"
+
+        />
+
+    <EditText
+        android:id="@+id/input_edt_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INPUT UMUR"
+        android:layout_below="@id/input_edt_Nama"/>
+
+    <EditText
+        android:id="@+id/input_golongan_darah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INPUT GOLONGAN DARAH"
+        android:layout_below="@id/input_edt_umur"/>
+    <Button
+        android:id="@+id/btn_simpan_data"
+        android:text="SIMPAN DATA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_golongan_darah"/>
+
+</RelativeLayout>
